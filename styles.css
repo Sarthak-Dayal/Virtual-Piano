@@ -1,0 +1,65 @@
+/** @format */
+
+body {
+  width: 75vw;
+  margin: auto;
+}
+
+#piano {
+  height: 400px;
+}
+
+.key {
+  height: 400px;
+  width: 10.2857142857%;
+  float: left;
+  border: 5px solid black;
+  border-right: none;
+  background: white;
+  text-align: center;
+  padding-top: 300px;
+}
+
+.sharp {
+  height: 275px;
+  width: 3.5%;
+  float: left;
+  border-right: none;
+  background: black;
+  text-align: center;
+  padding-top: 206.25px;
+  color: black;
+}
+
+#B {
+  border-right: 5px solid black;
+}
+
+#E {
+  border-right: none;
+}
+
+#CS {
+  position: absolute;
+  left: 18.5vw;
+}
+
+#DS {
+  position: absolute;
+  left: 26.5vw;
+}
+
+#FS {
+  position: absolute;
+  left: 41.8vw;
+}
+
+#GS {
+  position: absolute;
+  left: 49.5vw;
+}
+
+#AS {
+  position: absolute;
+  left: 57.2vw;
+}
